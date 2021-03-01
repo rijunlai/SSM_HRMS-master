@@ -18,6 +18,7 @@ import java.util.List;
 @RequestMapping(value = "/hrms/emp")
 public class EmployeeController {
 
+    //自动生成employeeService对象
     @Autowired
     EmployeeService employeeService;
 

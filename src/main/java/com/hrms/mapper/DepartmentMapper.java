@@ -27,6 +27,7 @@ public interface DepartmentMapper {
     /**
      * =================================更改============================================
      */
+    @Update({"UPDATE",TABLE_NAME,"SET dept_name= #{department.deptName},dept_leader = #{department.deptLeader} WHERE dept_id = #{deptId}"})
     int updateDeptById(@Param("deptId") Integer deptId,
                        @Param("department") Department department);
 

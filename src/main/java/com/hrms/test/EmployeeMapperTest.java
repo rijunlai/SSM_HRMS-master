@@ -54,7 +54,7 @@ public class EmployeeMapperTest {
     public void updateOneByIdTest(){
         Employee employee =
                 new Employee(1, "aa", "aa@qq.com", "女", 3);
-        int res = employeeMapper.updateOneById(1, employee);
+        int res = employeeMapper.updateOneById(3, employee);
         System.out.println(res);
     }
 
@@ -92,7 +92,7 @@ public class EmployeeMapperTest {
 
     @Test
     public void deleteOneByIdTest(){
-        int res = employeeMapper.deleteOneById(201);
+        int res = employeeMapper.deleteOneById(9);
         System.out.println(res);
 
     }

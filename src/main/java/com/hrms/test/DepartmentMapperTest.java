@@ -1,3 +1,5 @@
+package com.hrms.test;
+
 import com.hrms.bean.Department;
 import com.hrms.mapper.DepartmentMapper;
 import org.junit.Test;
